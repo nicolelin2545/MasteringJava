@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	int length;
-	int width;
-	Scanner myScanner = new Scanner(System.in);
+	    int length;
+	    int width;
+	    Scanner myScanner = new Scanner(System.in);
         System.out.println("Enter your length");
         length = myScanner.nextInt();
         System.out.println("Enter your width");
