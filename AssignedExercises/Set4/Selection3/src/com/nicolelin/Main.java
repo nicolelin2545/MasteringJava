@@ -10,9 +10,9 @@ public class Main {
 
         if (temperature>30){
             System.out.println("hot");
-        }else if (temperature==20-30){
+        }else if (temperature>=20 && temperature<31){
             System.out.println("comfortable");
-        }else if (temperature==10-19){
+        }else if (temperature>=10 && temperature<20){
             System.out.println("cool");
         }else if (temperature<=9){
             System.out.println("cold ");
