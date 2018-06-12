@@ -8,8 +8,10 @@ public class Main {
         System.out.println("Insert your password");
         password = myScanner.next();
 
+        password = password.toLowerCase();
 
-        if (password=="happy"){
+
+        if (password.equals("happy")){
             System.out.println("You are logged in");
         }else {
             System.out.println("Incorrect password");
