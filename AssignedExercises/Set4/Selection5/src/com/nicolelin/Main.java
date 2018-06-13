@@ -8,15 +8,19 @@ public class Main {
         System.out.println("Enter your mark");
         mark = myScanner.nextInt();
 
-        if (mark>=75 && mark < 101) {
-            System.out.println("Great");
-        }else if (mark >= 50 && mark <=74){
-            System.out.println("Pass");
-        }else if (mark ==0 && mark < 50){
-            System.out.println("Fail");
-        }else if (mark>100 && mark<0){
-            System.out.println("invalid");
+        if (mark>=0 && mark < 101) {
+            if (mark>=75 && mark<101){
+                System.out.println("Great");
+            }if (mark >= 50 && mark <=74){
+                System.out.println("Pass");
+            }if (mark ==0 && mark<50){
+                System.out.println("Fail");
+        }
+        }
+        }else {System.out.println("invalid");}
+        
+
         }
 
-    }
-}
+
+
