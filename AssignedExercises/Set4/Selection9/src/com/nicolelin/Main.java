@@ -27,7 +27,9 @@ public class Main {
 		word5.substring(0,1);
 
 		int var1 = word1.compareTo(word2);
-		
+
+
+		// use  compare to and it will give integer value, use if statement to compare alphabetical letter
 
 
 
