@@ -20,40 +20,8 @@ public class Main {
 		System.out.println("Enter your last word");
 		word5 = myScanner.next();
 
-		word1.substring(0,1);
-		word2.substring(0,1);
-		word3.substring(0,1);
-		word4.substring(0,1);
-		word5.substring(0,1);
-
-		int var1 = word1.compareTo(word2);
-		if (var1>0){
-			System.out.println(word1);
-		}else if (var1<0){
-			System.out.println(word2);
-		}else if (var1==0){
-			System.out.println(word1);
-		}
-		int var2 = word1.compareTo(word3);
-		if (var2>0){
-			System.out.println(word1);
-		}else if (var2<0){
-			System.out.println(word3);
-		}else if (var2==0){
-			System.out.println(word1);
-		}
-
-
-
-		// use  compare to and it will give integer value, use if statement to compare alphabetical letter
-
-
-
-
-
-
-
-
+		// LOL Im not doing this without an array
+		
 
 	}
 }
