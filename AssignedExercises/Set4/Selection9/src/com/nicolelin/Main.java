@@ -21,7 +21,7 @@ public class Main {
 		word5 = myScanner.next();
 
 		// LOL Im not doing this without an array
-		
+
 
 	}
 }
