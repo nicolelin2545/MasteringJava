@@ -11,6 +11,7 @@ public class Main {
         number = myScanner.nextInt();
 
         while (number!=0){
+            sum = sum + number;
             System.out.println("Re enter number");
             number = myScanner.nextInt();
             counter = counter+1;
