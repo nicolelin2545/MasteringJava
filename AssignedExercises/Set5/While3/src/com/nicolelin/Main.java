@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	    int counter = 0;
 	    int number = 0;
-	    int sum = 0;
+	    int sum = number;
 	    Scanner myScanner = new Scanner (System.in);
         System.out.println("Enter number");
         number = myScanner.nextInt();
@@ -16,7 +16,7 @@ public class Main {
             sum = sum + number;
             counter = counter+1;
         }
-        System.out.println("Your average is " +counter/sum);
+        System.out.println("Your average is " +sum/counter);
         System.out.println("Number of attempts is " +counter);
     }
 }
