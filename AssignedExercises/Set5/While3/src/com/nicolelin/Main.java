@@ -3,20 +3,19 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    Scanner myScanner = new Scanner (System.in);
 	    int counter = 0;
-	    int number;
-        System.out.println("enter number");
+	    int number = 0;
+	    int sum = 0;
+	    Scanner myScanner = new Scanner (System.in);
+        System.out.println("Enter number");
         number = myScanner.nextInt();
-        int sum = 0;
 
-	    while (number!=0){
-	        sum = sum + number;
-            System.out.println("enter number");
+        while (number!=0){
+            System.out.println("Re enter number");
             number = myScanner.nextInt();
-            counter = counter + 1;
+            counter = counter+1;
         }
-        System.out.println("averge is: " + sum/counter);
-        System.out.println("number of loops is: " + counter);
+        System.out.println("Your average is " +counter/sum);
+        System.out.println("Number of attempts is " +counter);
     }
 }
