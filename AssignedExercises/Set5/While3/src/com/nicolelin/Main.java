@@ -11,9 +11,9 @@ public class Main {
         number = myScanner.nextInt();
 
         while (number!=0){
-            sum = sum + number;
             System.out.println("Re enter number");
             number = myScanner.nextInt();
+            sum = sum + number;
             counter = counter+1;
         }
         System.out.println("Your average is " +counter/sum);
