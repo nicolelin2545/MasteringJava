@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         int x=0;
-        int number = Math.random()*100;
+        int number = (int) (Math.random()*(10-1)+1);
         Scanner myScanner = new Scanner (System.in);
 
         System.out.println("Enter number between 1 and ten ");
