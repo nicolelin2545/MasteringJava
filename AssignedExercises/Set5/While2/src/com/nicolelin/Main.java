@@ -5,16 +5,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double x=0;
-        double number = Math.random();
+        int x=0;
+        int number = Math.random()*100;
         Scanner myScanner = new Scanner (System.in);
 
-        System.out.println("Enter number between 0.05 and 0.99");
-        number = myScanner.nextDouble();
+        System.out.println("Enter number between 1 and ten ");
+        number = myScanner.nextInt();
 
         while (x!=number){
             System.out.println("Re enter number");
-            number = myScanner.nextDouble();
+            number = myScanner.nextInt();
         }
         System.out.println("You guessed the right number");
 
