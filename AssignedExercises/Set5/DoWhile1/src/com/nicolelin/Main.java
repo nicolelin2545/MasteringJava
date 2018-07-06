@@ -7,13 +7,10 @@ public class Main {
         String password = "luby";
         String input = " ";
 
-        do while (!input.equals(password)){
+        do{
             System.out.println("Enter password ");
             input = myScanner.nextLine();
-        }while (!input.equals(password));{
-            System.out.println("Correct password, please enter again");
-            input = myScanner.nextLine();
-        }
+        } while (!input.equals(password));
         System.out.println("You entered the right password");
 
 //do while is preffered bc...
