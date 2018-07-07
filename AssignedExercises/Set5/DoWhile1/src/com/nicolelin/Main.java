@@ -13,6 +13,6 @@ public class Main {
         } while (!input.equals(password));
         System.out.println("You entered the right password");
 
-//do while is preffered bc...
+//do while is preferred bc the code is executed at least once before checking if the expressing is true
     }
 }
