@@ -7,8 +7,10 @@ public class Main {
         int b = (int) (Math.random() * (100 - 1) + 1);
 
         do {
+            System.out.println(a+b);
+            System.out.println(a*b);
         } while (a + b != 20 && a * b != 96);
-        System.out.println("The two numbers are "+a) ;
+        System.out.println("The two numbers are "+a "and " +b) ;
 
     }
 }
