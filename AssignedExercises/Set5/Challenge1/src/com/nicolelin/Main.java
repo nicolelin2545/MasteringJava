@@ -10,12 +10,14 @@ public class Main {
         input = myScanner.nextInt();
         
 
-
-
-        while
-                (number!=input){
+        do {
             System.out.println("enter your number ");
             number = myScanner.nextInt();
+        }
+
+        while
+                (number!=input)
+
 
         }
         System.out.println();
