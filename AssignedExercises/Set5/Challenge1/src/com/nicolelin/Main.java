@@ -3,25 +3,18 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    int number=0;
+	    int number;
 	    int input;
 	    Scanner myScanner = new Scanner (System.in);
         System.out.println("Enter a number from 1-4");
-        input = myScanner.nextInt();
+        number = myScanner.nextInt();
         
 
-        do {
-            System.out.println("enter your number ");
+        while (number!=4&&number!=3&&number!=2&&number!=1){
+            System.out.println("Enter your number ");
             number = myScanner.nextInt();
         }
-
-        while
-                (number!=input)
-
-
-        }
-        System.out.println();
-
+        System.out.println(4*3*2*1);
 
 
 
