@@ -8,12 +8,14 @@ public class Main {
 	    Scanner myScanner = new Scanner (System.in);
         System.out.println("Enter a number ");
         input = myScanner.nextInt();
+        
 
         
 
         while (input!=0){
-            answer = answer*input;
+            answer =answer*input;
             input=input-1;
+
 
         }
         System.out.println(answer);
