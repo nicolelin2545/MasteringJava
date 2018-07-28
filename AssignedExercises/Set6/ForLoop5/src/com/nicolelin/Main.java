@@ -10,7 +10,7 @@ public class Main {
         int num = myScanner.nextInt();
 
 
-        for (int i=0;i==num;){
+        for (int i=0;i<num;i++){
             System.out.println(word);
         }
 
