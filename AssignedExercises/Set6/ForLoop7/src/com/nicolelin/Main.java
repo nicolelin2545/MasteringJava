@@ -38,8 +38,14 @@ public class Main {
 
 
         for (int i=0;i<number2+number2+number3+number4+number5+number6+number7+number8+number9+number10;i++){
-            System.out.println(i/10);
+            System.out.println("Your sum is " +i);
         }
+
+        for (int i=0;i==number2+number2+number3+number4+number5+number6+number7+number8+number9+number10/10;i++){
+            System.out.println("Your average is "+i);
+        }
+
+        
 
 
 
