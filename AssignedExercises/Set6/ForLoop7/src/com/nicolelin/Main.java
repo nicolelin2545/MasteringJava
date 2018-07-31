@@ -45,7 +45,7 @@ public class Main {
             System.out.println("Your average is "+i);
         }
 
-        
+        for (int i=0;i)
 
 
 
